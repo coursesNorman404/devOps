@@ -7,14 +7,14 @@ pipeline {
   options {
     timeout(time: 2, unit: 'MINUTES')
   }
-
+  
   stages {
-    stage('Instalar dependencias') {
+    stage('Install dependencies') {
       steps {
         sh 'npm i'
       }
     }
-    stage('Correr test') {
+    stage('Run tests') {
       steps {
         sh 'npm t'
       }
