@@ -1,2 +1,1 @@
-Hola mundo
-Nueva linea
+Hola
